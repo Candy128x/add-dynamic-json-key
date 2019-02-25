@@ -25,8 +25,8 @@
 ---
 @Working-of-Script
 => py IFSCappendScript2.py
-- During execution it takes IFSC code from user.
-- seperate Key (bank short code) & value cust IFSC code.
-- Read all data from IFSCdata.json file & append new/unique IFSC code in specific place according 
+- During execution it takes IFSC code from the user.
+- separate Key (bank shortcode) & value cust IFSC code.
+- Read all data from IFSCdata.json file & append new/unique IFSC code in a specific place according 
 	key value mapping in IFSCappendData.json file. 
-- At the end for stability/consistency we copy appended data file content to old json file.
+- At the end for stability/consistency we copy appended data file content to an old json file.
