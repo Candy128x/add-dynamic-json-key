@@ -1,5 +1,6 @@
 import json, re
 
+
 print("Ex: SBIN0040991");
 ifscCode = input("Enter IFSC Code -> BANK CODE:")
 
@@ -38,3 +39,4 @@ with open("IFSCappendData.json") as f:
     with open("IFSCdata.json", "w") as f1:
         for line in f:
             f1.write(line)
+
