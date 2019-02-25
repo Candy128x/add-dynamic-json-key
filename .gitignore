@@ -1,0 +1,5 @@
+# Hide bash
+gitHub*.bash
+*.bash
+
+*.cmd
