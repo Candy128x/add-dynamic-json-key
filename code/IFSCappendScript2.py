@@ -1,7 +1,7 @@
 import json, re
 
 
-print("Ex: SBIN0040991");
+print("Ex: SBIN0001537");
 ifscCode = input("Enter IFSC Code -> BANK CODE:")
 
 bankShortCode = ifscCode[:4]
