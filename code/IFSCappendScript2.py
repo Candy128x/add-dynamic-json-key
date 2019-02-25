@@ -1,7 +1,7 @@
 import json, re
 
 
-print("Ex: SBIN0001537");
+print("Ex: SBIN0001537")
 ifscCode = input("Enter IFSC Code -> BANK CODE:")
 
 bankShortCode = ifscCode[:4]
@@ -39,4 +39,3 @@ with open("IFSCappendData.json") as f:
     with open("IFSCdata.json", "w") as f1:
         for line in f:
             f1.write(line)
-
